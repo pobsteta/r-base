@@ -1,7 +1,7 @@
 # R base
 #
 # This image includes the following tools
-# - R 3.3.2
+# - R 3.X
 #
 # Version 1.0
 
