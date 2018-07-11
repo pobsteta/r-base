@@ -56,7 +56,7 @@ ENV LC_ALL en_US.UTF-8
 ENV LANG en_US.UTF-8
 
 # On ajoute le dépôt R
-RUN echo "deb http://cran.uni-muenster.de/bin/linux/ubuntu xenial/" > /etc/apt/sources.list.d/rcran.list
+RUN echo "deb http://cran.uni-muenster.de/bin/linux/ubuntu xenial-cran35/" > /etc/apt/sources.list.d/rcran.list
 RUN apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E084DAB9
 #RUN gpg --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys E084DAB9 && gpg -a --export E084DAB9 | sudo apt-key add -
 
